@@ -1,116 +1,69 @@
-{
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Template</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="This class that studies the mark-up language advanced layout techniques for creating web pages. This class includes lab assignments and lecture addressing major topics covered in class. "
+ <meta name="keywords" content="HTML,CSS,class,web,design">
+ <meta name="author" content="Reyna Ledezma">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/nav.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-css" rel="stylesheet" href="styles/mystyle.css" media="screen">
+<header>
+  <h2>IMED-2415 Web Design II</h2>
+<img src="images/placeholder.jpg" alt="placeholder">
+</header>
+<ul>
+ <li><a href="../index.html">Home</a></li>
+ <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Resources</a>
+    <div class="dropdown-content">
+      <a href="https://codepen.io/">Codepen</a>
+      <a href="https://www.w3schools.com/">w3schools</a>
+      <a href="http://www.washington.edu/accesscomputing/webd2/student/index.html">accesscomputing</a>
+      <a href="https://websitesetup.org/web-safe-fonts-html-css/">fonts</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Course Work</a>
+    <div class="dropdown-content">
+     id="skipnav"
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+<section class="col-container">
 
-body {
-    border: 1px solid black;
-    border-style: groove;
-		font-family: Verdana, Arial, sans-serif;
-    padding: 5px;
-    background-color: #FF7CB6;
-    font-color: #000000;
-    margin: 10%;
-	}
+  <!-- <nav class="col">
+    <ul>
+    </ul>
+  </nav>-->
   
-  div {
-    background-color: #EDC4C4;
-    padding: 5px;
-    border: 1px solid black;
-    margin: 10%;
-  }
+  <article>
+    <h2>Semester II</h2>
+    <p>In this classs I have been learning how to do web pages and how to edit them.</p> id="overview">
+    <p>This class studies the mark-up language advanced layout techniques for creating web pages. This class includes lab assignments and lecture addressing major topics covered in class.</p>
   
-   p {
-    background-color: #E5C4ED;
-    padding: 5px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    margin: 10%;
-   }
-   
-   ul {
-   background-color: #E5C4ED;
-    padding: 5px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    margin: 10%;
-   }
-  
- h1,h2 { 
-    font-family: "Book Antiqua",Georgia,sans-serif;
-    background-color: #E5C4ED;
-    padding: 5px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    margin: 10%;
-}
+  </article>
+</section>
 
-li {
- background-color: #E5C4ED;
-    padding: 5px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    margin: 10%;
-}
+<footer>
+ <p>Student at Adanson High School</p>
+ <p>&#169; Copyright</p>
+ <p>elizabethledezma04@gmail.com  <i class="material-icons">&#xe0be;</i></p>
+<script language="javascript">
+<!-- Must be edited for each coustomer -->
+document.write("<i>Last updated "+document.lastModified+"<I>");
+//--></script></p>
+<p>Web Design II for Adamson High School/ El Centro Web Design Class</p> 
+</footer>
 
-header {
-  background-color: #E5317D;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-img {
-  border-radius: 50%;
-}
-
-
-nav {
-  float: left;
-  width: 30%;
-  height: 300px;
-  background: #ccc;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #F282B1;
-  height: 300px;
-}
-
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-footer {
-  background-color: #EB5594;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
+</body>
+</html>
